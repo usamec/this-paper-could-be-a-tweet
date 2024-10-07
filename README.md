@@ -38,6 +38,7 @@ With this, paper could be understood in seconds instead of hours.
 ## [Locally Typical Sampling](https://arxiv.org/pdf/2202.00666)
 
 30 pages of proofs, lingo etc, could be simplified as:
+
 ![image](https://github.com/user-attachments/assets/053079b2-9b63-4582-8627-c50b0c7a20bc)
 
 E.g., sample words whose log probability is close to entropy.
