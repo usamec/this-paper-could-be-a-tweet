@@ -9,7 +9,7 @@ It just means that, in my opinion, they could be presented in a much better fash
 ## [LISA: Layerwise Importance Sampling for Memory-Efficient Large Language Model Fine-Tuning](https://arxiv.org/abs/2403.17919)
 
 There is no importance sampling! Nothing. Zilch! The proposed optimizer always updates embedding and lm-head and randomly selects transformer blocks.
-And they call this importance sampling, because the first and the last layer have a higher importance?
+And they call this importance sampling, because the first and the last layer have a "higher importance"?
 At least the results look promising. 
 
 ![image](https://github.com/user-attachments/assets/54a84e1a-7fd3-4bad-bb40-e613b7481120)
