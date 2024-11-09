@@ -6,6 +6,15 @@ equation theatre, and it could be shortened significantly and explained much bet
 This does not mean that the idea in the paper is bad or that the results of the mentioned papers are worthless. 
 It just means that, in my opinion, they could be presented in a much better fashion.
 
+## [LISA: Layerwise Importance Sampling for Memory-Efficient Large Language Model Fine-Tuning](https://arxiv.org/abs/2403.17919)
+
+There is no importance sampling! Nothing. Zilch! The proposed optimizer always updates embedding and lm-head and randomly selects transformer blocks.
+And they call this importance sampling, because the first and the last layer have a higher importance?
+At least the results look promising. 
+
+![image](https://github.com/user-attachments/assets/54a84e1a-7fd3-4bad-bb40-e613b7481120)
+
+
 ## [GhostNet: More Features from Cheap Operations](https://openaccess.thecvf.com/content_CVPR_2020/papers/Han_GhostNet_More_Features_From_Cheap_Operations_CVPR_2020_paper.pdf)
 
 The idea is to replace (Pytorch pseudocode follow):
